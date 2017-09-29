@@ -1,0 +1,13 @@
+public class Main {
+
+    public static void main(String[] args) {
+         
+        String language = "javascript";
+        System.out.println(language.charAt(0));
+        System.out.println(language.charAt(1));
+        System.out.println(language.charAt(2));
+        System.out.println(language.charAt(3));
+
+
+    }
+}

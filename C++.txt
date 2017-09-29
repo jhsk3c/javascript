@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+  string language = "javascript";
+  cout << language[0] << endl;
+  cout << language[1] << endl;
+  cout << language[2] << endl;
+  cout << language[3] << endl;
+
+  language[0] = 'A';
+  language[1] = 'B';
+  language[2] = 'C';
+  language[3] = 'D';
+
+  cout << language << endl; // ABCDscript
+  return 0;
+}
